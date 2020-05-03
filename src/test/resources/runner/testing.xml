@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite">
+   
+   <listeners>
+		<listener class-name="com.companyName.projectName1.customListeners.Listener" />
+	</listeners>
+    <test verbose="2" name="Login functionality testing">
+    <classes>
+      <class name="com.companyName.projectName1.testCases.TC001_Create_an_Account"/>
+      <class name="com.companyName.projectName1.testCases.TC002_Create_an_Account"/>
+      <class name="com.companyName.projectName1.testCases.TC003_Create_an_Account"/>
+      <class name="com.companyName.projectName1.testCases.TC004_Create_an_Account"/>
+      <class name="com.companyName.projectName1.testCases.TC005_Create_an_Account"/>
+    </classes>
+ </test> <!-- Default test -->
+</suite> <!-- Default suite -->
